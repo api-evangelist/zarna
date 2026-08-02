@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.zarnaai.com/#security (public marketing security section, fetched 2026-07-21)
+name: Zarna Trust & Security
+url: https://www.zarnaai.com/#security
+summary: >-
+  Zarna publishes its security posture in the Security section of its marketing
+  site. There is no dedicated trust portal, no security.txt, and no public
+  vulnerability-disclosure or bug-bounty program at the time of probing.
+certifications:
+- name: SOC 2 Type II
+  status: certified
+  evidence: https://www.zarnaai.com/#security
+controls:
+- category: encryption
+  detail: AES-256 encryption at rest
+- category: encryption
+  detail: TLS 1.3 in transit
+- category: isolation
+  detail: Single-tenant infrastructure with strict tenant isolation; VPC or on-premises deployment options
+- category: access
+  detail: Role-based access control (RBAC) with SSO integration
+- category: data-handling
+  detail: Customer data is never used for model training
+- category: testing
+  detail: Regular penetration testing and security audits
+notes: >-
+  Certification claim captured verbatim from the public site; no third-party
+  attestation letter or trust-center report link was published for independent
+  verification.

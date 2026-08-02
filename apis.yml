@@ -1,7 +1,25 @@
 aid: zarna
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zarna.png
 name: Zarna
-description: Zarna is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zarna builds autonomous AI associates for private capital firms — private equity, growth
+  equity, private credit, family offices, and investment banks. The platform captures deal information
+  from CIMs, emails, meetings, CRMs, and virtual data rooms into a structured institutional memory, then
+  runs a swarm of specialized agents (Scribe for capture and logging, Memo for screening memos and briefs,
+  Analyst for mandate-fit scoring, and Experts for warm-intro network mapping) that deliver finished work
+  directly into Outlook, Teams, and Slack. Zarna integrates with 30+ deal tools including DealCloud, Affinity,
+  Salesforce, and SharePoint, deploys into VPC or on-premises single-tenant infrastructure, and is SOC
+  2 Type II certified. A Y Combinator Fall 2025 company founded by an ex-AEA Investors team.
 url: https://raw.githubusercontent.com/api-evangelist/zarna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Private Equity
+- Investments
+- Financial Services
+- Deal Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zarna-domain-security.yml
+- type: TrustCenter
+  url: security/zarna-trust-center.yml
+- type: Compliance
+  url: security/zarna-trust-center.yml
+- type: Website
+  url: https://www.zarnaai.com/
+- type: Blog
+  url: https://www.zarnaai.com/blog
+- type: Pricing
+  url: https://www.zarnaai.com/#pricing
+- type: PrivacyPolicy
+  url: https://www.zarnaai.com/privacy
+- type: TermsOfService
+  url: https://www.zarnaai.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
