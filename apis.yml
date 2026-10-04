@@ -47,7 +47,7 @@ tags:
 - AI Agents
 - Private Equity
 - Investment
-- Financial-Services
+- Financial Services
 - Deal Management
 tags_raw:
 - Company
@@ -57,6 +57,7 @@ tags_raw:
 - Investments
 - Financial Services
 - Deal Management
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
