@@ -60,6 +60,8 @@ tags_raw:
 - Financial-Services
 apis: []
 common:
+- type: Plans
+  url: plans/zarna-plans-pricing.yml
 - type: DomainSecurity
   url: security/zarna-domain-security.yml
 - type: TrustCenter
